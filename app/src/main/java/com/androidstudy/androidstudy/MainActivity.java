@@ -38,11 +38,12 @@ public class MainActivity extends AppCompatActivity {
                     Button startBtn = (Button) findViewById(R.id.btn_start);
                     startBtn.setOnClickListener(new View.OnClickListener(){
                         public void onClick(View v){
-                            Toast.makeText(getApplicationContext(),"시작 버튼이 눌려썽요",1000).show();
+                            Toast.makeText(getApplicationContext(),"시작 버튼이 눌려썽요",Toast.LENGTH_SHORT).show();
 
-                            Intent myIntent = new Intent(MainActivity.this,MyActivity.class);
+                            Intent myIntent = new Intent(MainActivity.this,ScrollviewActivity.class);
                             startActivity(myIntent);
                         }
                     });
+
             }
-        }
+}
