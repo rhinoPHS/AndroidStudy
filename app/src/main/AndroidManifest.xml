@@ -15,8 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyActivity" />
-        <activity android:name=".ScrollviewActivity"></activity>
+        <activity
+            android:name=".MyActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ScrollviewActivity" />
+        <activity android:name=".BasicWidget.ImageViewActivity" />
+        <activity android:name=".BasicWidget.DatePickerActivity" />
+        <activity android:name=".BasicWidget.CompoundWidgetActivity" />
+        <activity android:name=".BasicWidget.CompoundWidgetTestActivity"></activity>
     </application>
 
 </manifest>
