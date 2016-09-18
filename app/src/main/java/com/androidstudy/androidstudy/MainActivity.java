@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.Toast;
 import com.androidstudy.androidstudy.BasicWidget.*;
-
+import com.androidstudy.androidstudy.ListView.*;
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onClick(View v){
                             Toast.makeText(getApplicationContext(),"시작 버튼이 눌려썽요",Toast.LENGTH_SHORT).show();
 
-                            Intent myIntent = new Intent(MainActivity.this, DatePicker.class);
+                            Intent myIntent = new Intent(MainActivity.this, ExamCustomList.class);
                             startActivity(myIntent);
                         }
                     });

@@ -22,7 +22,10 @@
         <activity android:name=".BasicWidget.ImageViewActivity" />
         <activity android:name=".BasicWidget.DatePickerActivity" />
         <activity android:name=".BasicWidget.CompoundWidgetActivity" />
-        <activity android:name=".BasicWidget.CompoundWidgetTestActivity"></activity>
+        <activity android:name=".BasicWidget.CompoundWidgetTestActivity" />
+        <activity android:name=".ListView.ArrayAdapterActivity" />
+        <activity android:name=".ListView.CustomListActivity" />
+        <activity android:name=".ListView.ExamCustomList"></activity>
     </application>
 
 </manifest>
