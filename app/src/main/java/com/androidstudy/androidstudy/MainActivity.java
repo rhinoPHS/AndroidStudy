@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onClick(View v){
                             Toast.makeText(getApplicationContext(),"시작 버튼이 눌려썽요",Toast.LENGTH_SHORT).show();
 
-                            Intent myIntent = new Intent(MainActivity.this, ExamCustomList.class);
+                            Intent myIntent = new Intent(MainActivity.this, AutoCmleTextView.class);
                             startActivity(myIntent);
                         }
                     });

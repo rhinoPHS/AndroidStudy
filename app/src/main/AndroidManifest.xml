@@ -25,7 +25,10 @@
         <activity android:name=".BasicWidget.CompoundWidgetTestActivity" />
         <activity android:name=".ListView.ArrayAdapterActivity" />
         <activity android:name=".ListView.CustomListActivity" />
-        <activity android:name=".ListView.ExamCustomList"></activity>
+        <activity android:name=".ListView.ExamCustomList" />
+        <activity android:name=".ListView.ExpandableList" />
+        <activity android:name=".AutoCmleTextView" />
+        <activity android:name=".RecyclerView.CustomView"></activity>
     </application>
 
 </manifest>
